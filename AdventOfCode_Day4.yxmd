@@ -1,0 +1,4307 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="150" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1140" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>[1518-11-13 00:04] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-18 00:43] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-29 23:57] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-13 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-13 23:56] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-31 00:54] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-10 00:40] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-16 00:39] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-05 00:01] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-14 00:04] Guard #631 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-24 00:42] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-15 00:27] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-26 00:47] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-04 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-17 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-28 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-17 23:52] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-23 00:01] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-15 00:48] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-07 23:59] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-22 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-28 23:47] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-15 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-27 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-17 00:01] Guard #631 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-20 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-06 00:47] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-29 00:20] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-19 00:17] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-23 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-16 00:00] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-23 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-06 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-25 00:03] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-01 00:20] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-07 00:01] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-08 00:03] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-01 00:44] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-27 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-15 23:56] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-07 00:53] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-12 00:07] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-07 00:03] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-06 00:03] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-17 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-21 00:32] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-18 00:04] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-19 00:49] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-07 23:59] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-28 00:26] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-03 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-14 00:00] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-18 23:56] Guard #83 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-14 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-17 00:01] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-21 23:59] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-06 00:47] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-12 00:00] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-19 00:11] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-01 23:57] Guard #1151 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-05 00:43] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-19 23:57] Guard #1213 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-08 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-14 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-12 00:44] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-09 23:59] Guard #241 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-20 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-07 23:54] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-20 00:00] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-11 00:00] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-09 00:28] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-30 23:59] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-04 00:01] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-29 00:03] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-26 00:00] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-29 00:05] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-01 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-04 00:30] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-07 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-08 00:23] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-22 00:08] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-04 23:59] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-05 00:21] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-31 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-30 00:13] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-13 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-19 00:51] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-04 00:11] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-31 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-19 00:20] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-02 00:02] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-24 00:34] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-18 00:00] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-04 00:27] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-22 00:04] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-22 00:37] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-18 00:40] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-18 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-22 00:49] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-25 00:36] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-14 00:28] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-22 00:18] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-28 00:12] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-15 23:58] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-14 00:45] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-12 23:56] Guard #2741 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-23 23:46] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-07 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-02 00:27] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-24 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-08 00:36] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-04 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-26 23:56] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-10 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-16 00:21] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-21 00:38] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-24 00:01] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-10 00:46] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-15 00:04] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-26 00:47] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-11 00:00] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-21 00:56] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-28 00:45] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-08 00:34] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-29 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-25 00:38] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-27 23:50] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-01 00:27] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-04 00:04] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-07 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-15 00:20] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-03 00:34] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-25 00:01] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-26 00:04] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-27 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-22 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-19 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-26 00:23] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-22 00:24] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-11 23:56] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-16 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-13 00:42] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-27 00:23] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-14 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-15 00:14] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-12 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-23 00:53] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-05 23:57] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-22 00:07] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-14 00:00] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-19 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-02 00:33] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-17 00:31] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-24 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-07 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-25 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-08 00:18] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-18 23:57] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-09 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-28 00:01] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-21 00:00] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-23 23:58] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-04 00:42] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-21 23:46] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-08 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-04 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-02 23:58] Guard #3433 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-25 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-12 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-17 23:58] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-06 23:56] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-06 00:00] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-03 00:24] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-23 00:31] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-02 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-06 00:00] Guard #1151 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-14 00:24] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-12 00:45] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-02 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-20 23:58] Guard #1213 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-31 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-25 00:15] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-22 23:49] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-09 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-14 00:13] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-27 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-02 00:02] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-19 00:53] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-08 00:32] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-07 00:47] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-08 23:56] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-26 00:31] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-09 00:03] Guard #1213 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-31 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-08 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-31 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-15 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-20 23:57] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-14 00:02] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-03 00:05] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-28 00:04] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-19 23:51] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-16 00:36] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-10 00:02] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-05 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-14 23:59] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-21 00:00] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-21 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-28 23:57] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-12 00:24] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-22 00:02] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-19 00:01] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-11 00:01] Guard #2741 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-30 00:43] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-14 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-23 00:04] Guard #1151 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-15 00:03] Guard #1151 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-06 00:51] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-30 00:47] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-27 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-06 00:08] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-11 00:35] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-13 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-23 00:34] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-15 00:43] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-14 23:56] Guard #83 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-15 00:22] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-08 00:00] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-14 00:15] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-18 00:24] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-27 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-06 00:45] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-26 00:04] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-08 23:57] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-29 00:37] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-07 00:21] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-01 00:11] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-09 00:20] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-15 00:02] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-26 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-09 00:03] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-03 00:02] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-26 00:33] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-01 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-13 23:48] Guard #1213 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-16 00:21] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-21 23:53] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-04 00:39] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-11 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-17 00:21] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-22 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-07 23:48] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-12 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-31 00:00] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-20 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-09 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-20 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-27 00:01] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-18 00:07] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-04 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-12 00:04] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-08 23:59] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-05 00:15] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-09 00:38] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-20 23:53] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-18 00:48] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-23 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-13 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-26 00:15] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-17 00:32] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-24 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-23 23:59] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-28 00:02] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-22 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-01 00:01] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-07 00:33] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-10 00:24] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-17 00:03] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-31 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-13 00:54] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-03 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-25 00:02] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-20 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-09 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-14 00:14] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-29 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-11 00:02] Guard #2741 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-07 00:35] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-16 23:56] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-26 00:00] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-22 00:46] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-15 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-20 00:28] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-11 23:59] Guard #83 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-12 00:30] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-10 23:56] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-11 00:49] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-16 00:30] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-12 00:34] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-09 00:56] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-11 00:32] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-18 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-18 00:30] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-09 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-04 00:29] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-16 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-28 00:19] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-24 00:33] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-12 00:00] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-19 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-07 00:45] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-02 00:44] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-18 00:29] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-12 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-25 00:02] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-06 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-28 00:01] Guard #83 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-08 00:44] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-28 23:54] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-01 00:03] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-08 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-28 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-21 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-11 00:19] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-07 00:41] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-01 00:38] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-03 23:58] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-28 23:58] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-23 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-26 00:00] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-18 00:06] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-22 00:42] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-05 00:30] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-16 00:36] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-15 00:30] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-07 00:00] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-05 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-18 00:03] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-09 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-14 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-09 00:00] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-25 23:56] Guard #83 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-25 00:06] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-13 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-06 00:44] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-23 00:01] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-31 23:57] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-13 00:38] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-24 23:54] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-30 23:57] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-23 00:03] Guard #3433 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-01 00:33] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-26 00:46] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-17 23:53] Guard #1151 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-10 00:00] Guard #1151 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-30 00:41] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-02 00:57] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-19 23:57] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-26 00:38] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-14 00:09] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-18 00:02] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-11 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-01 00:39] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-16 23:59] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-30 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-06 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-13 23:59] Guard #631 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-28 00:02] Guard #83 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-29 00:01] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-11 00:31] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-14 00:21] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-03 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-05 00:01] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-03 00:04] Guard #2741 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-23 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-27 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-03 23:59] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-13 00:31] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-24 00:25] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-07 00:32] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-03 00:11] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-13 00:00] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-04 00:04] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-12 00:46] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-10 00:41] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-08 00:00] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-11 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-30 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-27 00:36] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-22 00:12] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-03 00:31] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-16 00:25] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-18 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-09 00:06] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-23 23:59] Guard #83 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-30 00:47] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-24 00:39] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-08 00:32] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-04 00:41] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-01 00:02] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-13 00:21] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-15 00:36] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-17 00:48] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-19 00:00] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-06 00:45] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-28 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-04 00:29] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-17 00:37] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-08 00:56] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-19 00:57] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-12 00:01] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-08 23:57] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-02 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-09 00:28] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-02 00:34] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-10 00:04] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-18 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-29 00:16] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-12 00:00] Guard #1213 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-08 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-14 00:57] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-28 00:06] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-16 00:07] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-22 00:12] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-15 00:30] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-05 00:19] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-03 00:11] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-11 00:33] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-02 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-01 00:01] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-17 00:02] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-05 00:02] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-04 00:38] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-29 00:37] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-15 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-20 00:00] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-04 00:00] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-29 23:59] Guard #631 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-10 00:20] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-12 00:26] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-17 00:43] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-19 00:37] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-07 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-22 00:27] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-31 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-06 00:30] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-02 00:21] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-05 00:01] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-07 00:28] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-05 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-23 00:45] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-06 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-14 00:04] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-07 00:49] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-28 00:16] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-11 23:56] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-14 00:36] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-08 00:04] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-17 00:13] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-05 00:19] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-14 00:02] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-02 00:42] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-20 00:36] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-09 00:04] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-25 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-08 00:04] Guard #631 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-24 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-10 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-23 00:04] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-09 00:57] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-07 00:09] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-25 00:34] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-25 00:39] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-21 00:12] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-21 00:51] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-16 00:06] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-02 00:23] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-02 00:02] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-27 23:57] Guard #1213 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-18 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-21 00:31] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-26 00:35] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-04 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-16 00:41] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-11 00:41] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-14 00:31] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-12 00:19] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-24 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-16 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-31 00:37] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-22 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-10 00:44] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-12 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-01 00:20] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-23 00:04] Guard #631 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-23 00:38] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-02 00:45] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-07 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-01 00:41] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-12 00:43] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-30 00:16] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-16 00:26] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-22 00:28] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-10 00:01] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-12 00:23] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-13 00:54] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-13 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-25 23:51] Guard #2741 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-09 00:42] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-06 00:11] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-14 00:11] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-23 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-30 00:43] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-16 23:57] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-21 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-17 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-02 00:16] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-23 00:38] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-06 00:45] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-25 00:03] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-26 00:01] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-04 00:02] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-23 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-23 00:41] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-03 00:25] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-07 00:47] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-07 00:03] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-25 00:00] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-24 00:04] Guard #1213 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-18 00:04] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-19 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-11 23:53] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-06 00:01] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-31 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-16 00:04] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-20 00:41] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-13 00:47] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-26 00:00] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-04 00:13] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-19 00:39] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-11 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-06 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-21 00:02] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-28 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-27 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-31 00:13] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-21 00:39] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-26 23:56] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-24 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-09 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-12 23:53] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-15 00:05] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-24 00:39] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-22 00:05] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-02 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-28 23:50] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-03 00:02] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-06 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-06 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-24 00:35] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-13 00:08] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-11 00:13] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-30 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-04 23:59] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-30 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-16 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-19 00:46] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-23 00:07] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-01 00:02] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-08 00:30] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-19 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-01 00:26] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-21 00:04] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-25 00:33] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-14 23:59] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-31 00:41] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-27 00:04] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-29 00:51] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-08 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-18 00:06] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-01 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-30 00:12] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-17 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-12 00:52] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-25 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-07 00:33] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-26 23:56] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-24 00:32] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-05 00:26] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-13 00:30] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-08 00:44] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-05 00:06] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-09 00:44] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-19 00:47] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-12 00:19] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-06 00:29] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-15 00:43] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-21 00:19] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-26 00:02] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-24 00:30] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-02 00:49] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-13 00:09] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-21 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-26 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-11 00:24] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-05 00:00] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-18 00:39] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-01 00:39] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-09 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-08 00:28] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-29 23:58] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-11 00:39] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-13 00:45] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-27 00:01] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-19 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-22 00:56] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-23 00:39] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-14 00:23] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-22 00:13] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-06 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-24 00:23] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-31 00:01] Guard #631 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-17 00:42] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-14 00:39] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-02 23:57] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-09 00:06] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-07 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-16 00:51] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-30 00:02] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-05 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-14 23:51] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-06 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-27 00:05] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-20 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-21 00:27] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-29 00:19] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-25 00:52] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-12 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-27 00:56] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-19 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-22 00:03] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-04 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-03 00:04] Guard #2741 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-21 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-22 00:44] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-18 00:21] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-04 00:35] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-02 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-15 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-18 00:32] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-31 00:46] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-20 00:03] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-21 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-21 00:48] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-27 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-14 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-02 23:52] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-30 00:00] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-19 00:35] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-12 00:01] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-13 00:03] Guard #1213 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-10 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-10 23:58] Guard #2741 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-29 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-20 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-30 00:31] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-07 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-30 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-02 00:45] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-03 00:00] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-15 00:56] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-07 00:04] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-22 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-11 00:19] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-21 23:52] Guard #83 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-18 00:11] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-18 23:56] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-07 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-07 23:58] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-01 00:44] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-01 23:57] Guard #631 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-23 00:07] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-13 23:56] Guard #83 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-19 00:24] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-06 00:32] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-12 00:51] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-09 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-05 00:45] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-15 00:23] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-11 00:29] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-09 00:16] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-09 00:01] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-05 00:00] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-29 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-10 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-20 00:01] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-07 00:40] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-13 23:54] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-13 00:47] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-03 00:38] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-09 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-06 00:41] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-23 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-06 00:04] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-28 00:33] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-28 00:40] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-28 00:19] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-20 00:30] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-08 00:02] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-16 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-19 00:07] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-13 00:03] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-13 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-06 00:29] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-12 23:59] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-01 00:23] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-12 23:57] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-10 00:33] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-10 00:54] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-14 00:29] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-01 00:54] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-19 00:44] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-09 23:56] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-15 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-25 00:19] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-04 00:01] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-20 23:56] Guard #2441 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-07 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-05 00:57] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-30 00:22] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-03 00:48] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-05 00:49] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-10 00:43] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-14 00:38] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-29 00:01] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-20 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-18 00:15] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-09 23:56] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-15 00:44] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-20 00:48] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-02 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-17 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-04 00:43] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-03 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-15 23:58] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-09 00:12] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-10 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-28 00:20] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-21 00:03] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-01 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-29 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-24 00:19] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-25 00:49] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-17 00:24] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-04 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-03 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-04 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-11 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-20 00:02] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-12 23:59] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-14 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-02 00:10] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-10 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-05 00:54] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-16 00:39] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-12 00:30] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-04 00:35] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-15 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-09 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-22 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-27 00:21] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-20 00:00] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-01 23:56] Guard #2441 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-28 00:34] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-03 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-15 00:02] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-22 00:01] Guard #631 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-16 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-16 00:01] Guard #631 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-02 00:02] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-30 00:06] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-20 00:45] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-14 00:57] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-15 00:52] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-23 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-24 00:05] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-19 00:37] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-21 23:56] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-05 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-26 00:02] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-18 00:47] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-26 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-23 00:45] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-26 00:17] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-17 00:25] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-22 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-13 23:58] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-23 00:00] Guard #1213 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-20 00:00] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-07 00:00] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-27 00:47] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-03 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-09 23:57] Guard #1151 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-12 00:15] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-11 00:02] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-06 23:58] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-25 00:45] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-01 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-14 00:07] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-19 00:32] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-01 00:20] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-12 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-28 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-20 00:39] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-03 00:36] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-12 00:37] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-15 23:57] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-20 00:39] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-29 00:46] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-17 00:29] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-01 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-18 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-22 00:26] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-25 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-18 23:58] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-27 00:15] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-02 00:33] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-04 23:59] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-24 00:23] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-10 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-08 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-26 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-31 00:02] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-12 00:11] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-12 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-07 00:43] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-24 00:15] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-04 00:33] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-15 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-15 00:35] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-25 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-01 00:46] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-23 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-20 00:16] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-30 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-27 00:23] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-14 00:17] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-25 00:10] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-16 00:33] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-20 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-19 00:22] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-14 00:37] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-02 00:55] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-16 00:06] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-23 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-08 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-06 23:58] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-24 00:28] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-28 00:26] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-23 00:35] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-19 00:54] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-11 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-20 00:35] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-15 00:24] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-29 23:48] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-10 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-12 00:34] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-02 00:09] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-21 00:21] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-02 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-19 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-21 00:17] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-22 00:37] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-17 23:58] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-15 23:58] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-22 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-08 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-28 00:02] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-17 23:59] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-13 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-15 00:16] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-06 00:43] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-22 00:48] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-07 00:01] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-26 23:58] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-25 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-20 00:24] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-17 00:32] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-15 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-10 23:59] Guard #241 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-13 00:28] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-30 00:27] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-01 00:43] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-17 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-23 00:53] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-27 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-18 00:27] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-29 00:01] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-18 23:56] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-02 23:49] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-05 00:31] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-17 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-05 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-10 00:00] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-15 00:12] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-24 23:57] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-27 00:25] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-03 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-25 00:28] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-21 23:48] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-06 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-05 23:58] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-03 00:23] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-29 00:51] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-21 00:00] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-23 00:47] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-12 00:01] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-18 00:44] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-17 00:07] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-10 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-19 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-05 00:32] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-09 00:26] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-20 00:29] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-02 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-27 00:52] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-11 00:40] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-04 23:59] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-27 23:56] Guard #1151 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-17 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-04 00:36] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-16 23:57] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-07 00:15] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-20 00:30] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-22 00:00] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-13 00:38] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-15 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-02 00:03] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-11 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-12 00:13] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-25 00:04] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-02 00:23] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-15 00:31] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-04 00:21] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-26 00:48] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-24 00:28] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-05 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-09 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-12 00:53] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-14 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-04 00:42] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-07 00:26] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-04 00:00] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-28 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-17 00:47] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-21 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-21 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-21 00:37] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-28 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-14 00:51] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-22 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-27 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-15 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-27 00:29] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-26 00:08] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-02 00:28] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-15 00:18] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-09 00:51] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-09 23:56] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-07 23:58] Guard #2741 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-06 00:28] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-06 00:25] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-05 23:59] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-26 23:50] Guard #1151 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-13 00:02] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-27 00:37] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-01 23:58] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-18 00:45] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-02 00:00] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-22 00:36] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-29 00:43] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-05 23:59] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-09 00:47] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-15 00:19] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-01 00:00] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-08 00:01] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-24 00:00] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-06 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-22 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-08 00:24] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-27 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-16 00:47] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-24 23:50] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-12 00:54] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-25 00:57] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-23 00:55] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-05 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-17 00:04] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-15 23:58] Guard #2441 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-18 00:03] Guard #2741 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-01 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-17 00:15] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-14 00:33] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-04 00:45] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-16 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-29 00:23] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-04 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-22 23:57] Guard #83 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-24 00:04] Guard #967 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-20 00:21] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-18 00:01] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-05 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-08 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-01 00:26] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-01 00:02] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-18 00:35] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-09 00:51] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-06 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-16 00:32] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-10 00:36] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-19 00:00] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-18 00:46] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-04 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-05 00:22] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-26 00:56] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-16 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-02 23:57] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-14 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-03 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-12 00:57] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-14 23:58] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-08 00:23] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-07 23:47] Guard #83 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-30 00:00] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-11 00:52] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-31 00:35] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-23 00:33] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-21 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-24 23:50] Guard #1999 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-18 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-29 00:37] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-28 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-26 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-08 00:37] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-24 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-06 00:56] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-27 00:25] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-23 00:02] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-13 00:20] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-28 23:58] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-16 00:00] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-25 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-11 00:02] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-21 23:58] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-16 00:50] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-18 23:57] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-10 00:14] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-05 00:47] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-22 00:42] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-20 23:59] Guard #3433 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-19 00:25] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-01 00:43] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-24 00:00] Guard #2741 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-07 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-17 00:54] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-01 00:00] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-18 23:58] Guard #617 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-15 00:45] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-30 00:00] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-28 00:01] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-26 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-27 00:00] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-16 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-09 00:13] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-27 00:48] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-22 23:46] Guard #137 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-03 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-12 00:40] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-05 23:57] Guard #3433 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-11-04 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-08 23:58] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-13 00:37] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-25 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-15 00:50] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-06 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-23 00:25] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-19 23:56] Guard #947 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-09-18 00:26] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-09 00:47] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-11 00:02] Guard #2411 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-04-01 23:50] Guard #1297 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-22 00:47] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-24 23:50] Guard #3221 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-05-30 23:58] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-07 00:44] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-18 23:54] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-06-17 00:42] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-19 00:52] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-10-25 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-26 23:50] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-27 00:34] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-08-17 00:01] Guard #503 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-02-20 00:32] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-02 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-10-18 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-16 00:55] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-17 00:49] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-06-26 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-11 00:55] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-07-24 00:22] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-13 00:01] Guard #1871 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-21 00:45] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-04 00:00] Guard #811 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-02 00:32] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-23 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-02 23:57] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-08-14 00:58] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-20 00:07] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-13 00:16] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-18 00:48] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-09-25 00:00] Guard #2351 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-22 00:05] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-06-05 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-03-05 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-05 00:59] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-11-19 00:11] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-08-23 00:00] Guard #3251 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-07-10 00:44] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-04-30 00:57] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-04-30 00:05] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-02-12 00:40] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-09-03 23:50] Guard #479 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-10-06 00:27] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-03-14 23:57] Guard #3347 begins shift</c>
+            </r>
+            <r>
+              <c>[1518-03-29 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-11-23 00:27] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-05-07 00:46] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-05-10 00:56] wakes up</c>
+            </r>
+            <r>
+              <c>[1518-02-15 00:10] falls asleep</c>
+            </r>
+            <r>
+              <c>[1518-07-28 00:23] wakes up</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="258" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field1</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>
+          </RootName>
+          <Delimeters value="]" />
+          <NumFields value="3" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="354" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([1], &quot;[&quot;, &quot;&quot;)" field="1" size="43" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[1 = Replace([1], "[", "")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field1" selected="False" />
+            <SelectField field="DateTime_Out" selected="True" rename="Date" />
+            <SelectField field="RegExOut1" selected="True" rename="Guard" />
+            <SelectField field="1" selected="False" rename="Date" type="DateTime" size="19" />
+            <SelectField field="2" selected="True" rename="Status" />
+            <SelectField field="3" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="546" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>1</InputFieldName>
+          <Format>yyyy-MM-dd hh:mm</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert 1 From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="450" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>2</Field>
+          <RegExExpression value="#(\d*)" />
+          <CaseInsensitve value="False" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName />
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_WString" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>Field1_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Parse:
+#(\d*)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="726" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([Status], &quot;#&quot;+tostring([Guard]), &quot;&quot;)" field="Status" size="43" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Status = Replace([Status], "#"+tostring([Guard]), "")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="834" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Date" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="930" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Guard</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF ISNULL([Guard]) THEN [Row-1:Guard] ELSE [Guard] ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF ISNULL([Guard]) THEN [Row-1:Guard] ELSE [Guard] ENDIF</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1038" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Date</UpdateField_Name>
+          <CreateField_Name>Next Event</CreateField_Name>
+          <CreateField_Type>DateTime</CreateField_Type>
+          <CreateField_Size>19</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Row+1:Date]</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Row+1:Date]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+        <Position x="1146" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name />
+          <CreateField_Name>TimeStamps</CreateField_Name>
+          <CreateField_Type>DateTime</CreateField_Type>
+          <CreateField_Size>19</CreateField_Size>
+          <Expression_Init>[Date]</Expression_Init>
+          <Expression_Cond>TimeStamps &lt; [Next Event]</Expression_Cond>
+          <Expression_Loop>DateTimeAdd([TimeStamps],1,'minutes')</Expression_Loop>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1338" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Hour] = "0"</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Hour</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-12-07 19:44:08</PeriodDate>
+              <PeriodType>days</PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>0</Operand>
+              <StartDate>2018-12-07 19:44:18</StartDate>
+              <EndDate>2018-12-07 19:44:18</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Hour] = "0"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1230" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeHour([TimeStamps])" field="Hour" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeMinutes([TimeStamps])" field="Minutes" size="1073741823" type="V_WString" />
+            <FormulaField expression="tostring(DateTimeMonth([TimeStamps]))+&quot;-&quot;+tostring(DateTimeDay([TimeStamps]))" field="Day_Month" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Hour = DateTimeHour([TimeStamps])
+Minutes = DateTimeMinutes([TimeStamps])
+Day_Mo...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1422" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Status] = &quot; Guard  begins shift&quot; OR [Status] = &quot; wakes up&quot; THEN &quot;Y&quot; ELSE &quot;N&quot; ENDIF" field="Awake" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Awake = IF [Status] = " Guard  begins shift" OR [Status] = " wakes up" THEN "Y" ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1529" y="94" width="882" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Part 1</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1554" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Guard" action="GroupBy" rename="Guard" />
+                <SummarizeField field="Awake" action="GroupBy" rename="Awake" />
+                <SummarizeField field="Guard" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1650" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Awake] = "N"</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Awake</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-12-07 19:51:24</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>N</Operand>
+                  <StartDate>2018-12-07 19:51:24</StartDate>
+                  <EndDate>2018-12-07 19:51:24</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Awake] = "N"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1746" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Count" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="1842" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>1</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1566" y="234.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Guard" action="GroupBy" rename="Guard" />
+                <SummarizeField field="Awake" action="GroupBy" rename="Awake" />
+                <SummarizeField field="Minutes" action="GroupBy" rename="Minutes" />
+                <SummarizeField field="Date" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1662" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Awake] = "N"</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Awake</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-12-07 19:52:37</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>N</Operand>
+                  <StartDate>2018-12-07 19:52:37</StartDate>
+                  <EndDate>2018-12-07 19:52:37</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Awake] = "N"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1926" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Guard" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Guard" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Guard" selected="True" rename="Right_Guard" input="Right_" />
+                    <SelectField field="Right_Count" selected="True" rename="Right_Count" input="Right_" />
+                    <SelectField field="Right_Awake" selected="True" rename="Right_Awake" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="2022" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Right_Count" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Right_Count - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="2118" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>1</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="2310" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Guard]*[Minutes]" field="CheckSum" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[CheckSum = [Guard]*[Minutes]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2214" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Guard" selected="True" type="Double" size="8" />
+                <SelectField field="Minutes" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1530" y="378" width="509" height="209" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Part 2</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1555" y="422" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Guard" action="GroupBy" rename="Guard" />
+                <SummarizeField field="Minutes" action="GroupBy" rename="Minutes" />
+                <SummarizeField field="Awake" action="GroupBy" rename="Awake" />
+                <SummarizeField field="Minutes" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1747" y="422" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Count" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1938" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="tonumber([Guard])*tonumber([Minutes])" field="CheckSum" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[CheckSum = tonumber([Guard])*tonumber([Minutes])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1651" y="422" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Awake] = "N"</Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Awake</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2018-12-07 20:05:15</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <StartDate>2018-12-07 20:05:15</StartDate>
+                  <EndDate>2018-12-07 20:05:15</EndDate>
+                  <Operand>N</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Awake] = "N"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="1843" y="422" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>1</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="22" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="True" />
+      <Destination ToolID="22" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>AdventOfCode_Day4</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
