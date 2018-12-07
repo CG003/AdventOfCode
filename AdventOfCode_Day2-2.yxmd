@@ -1,0 +1,1574 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="378" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Field_1</Field>
+          <RegExExpression value="(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName />
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_WString" size="254" />
+            <Field field="RegExOut2" type="V_WString" size="254" />
+            <Field field="RegExOut3" type="V_WString" size="254" />
+            <Field field="RegExOut4" type="V_WString" size="254" />
+            <Field field="RegExOut5" type="V_WString" size="254" />
+            <Field field="RegExOut6" type="V_WString" size="254" />
+            <Field field="RegExOut7" type="V_WString" size="254" />
+            <Field field="RegExOut8" type="V_WString" size="254" />
+            <Field field="RegExOut9" type="V_WString" size="254" />
+            <Field field="RegExOut10" type="V_WString" size="254" />
+            <Field field="RegExOut11" type="V_WString" size="254" />
+            <Field field="RegExOut12" type="V_WString" size="254" />
+            <Field field="RegExOut13" type="V_WString" size="254" />
+            <Field field="RegExOut14" type="V_WString" size="254" />
+            <Field field="RegExOut15" type="V_WString" size="254" />
+            <Field field="RegExOut16" type="V_WString" size="254" />
+            <Field field="RegExOut17" type="V_WString" size="254" />
+            <Field field="RegExOut18" type="V_WString" size="254" />
+            <Field field="RegExOut19" type="V_WString" size="254" />
+            <Field field="RegExOut20" type="V_WString" size="254" />
+            <Field field="RegExOut21" type="V_WString" size="254" />
+            <Field field="RegExOut22" type="V_WString" size="254" />
+            <Field field="RegExOut23" type="V_WString" size="254" />
+            <Field field="RegExOut24" type="V_WString" size="254" />
+            <Field field="RegExOut25" type="V_WString" size="254" />
+            <Field field="RegExOut26" type="V_WString" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>Field_1_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Parse:
+(.)(.)(.)(.)(.)(.)(.)(.)(.)...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="198" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="length([Field_1])" field="length" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[length = length([Field_1])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="250" />
+          <Fields>
+            <Field name="Field_1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>ohvflkatysoimjxbunazgwcdpr</c>
+            </r>
+            <r>
+              <c>ohoflkctysmiqjxbufezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysciqwxfunezgwcdpr</c>
+            </r>
+            <r>
+              <c>fhvflyatysmiqjxbunazgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvhlkatysmiqjxbunhzgwcdxr</c>
+            </r>
+            <r>
+              <c>ohvflbatykmiqjxbunezgscdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatasaiqjxbbnezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatyymiqjxrunetgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatbsmiqhxbunezgwcdpw</c>
+            </r>
+            <r>
+              <c>oheflkytysmiqjxbuntzgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatrsmiqjibunezgwcupr</c>
+            </r>
+            <r>
+              <c>ohvflkaiysmiqjxbunkzgwkdpr</c>
+            </r>
+            <r>
+              <c>ohvilkutysmiqjxbuoezgwcdpr</c>
+            </r>
+            <r>
+              <c>phvflkatysmkqjxbulezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatnsmiqjxbznezgpcdpr</c>
+            </r>
+            <r>
+              <c>ohvylkatysriqjobunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatytmiqjxbunezrwcypr</c>
+            </r>
+            <r>
+              <c>ohvonkatysmiqjxbunezgwxdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatgsmoqjxyunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkbtqsmicjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmgqjqbunezgwcdvr</c>
+            </r>
+            <r>
+              <c>ohvtlkatyrmiqjxbunezgwcdpi</c>
+            </r>
+            <r>
+              <c>ohvflkatyskovjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkayysmipjxbunezgwcdpu</c>
+            </r>
+            <r>
+              <c>ohvalkltysmiqjxbunezgecdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxiunezgnndpr</c>
+            </r>
+            <r>
+              <c>ohvflkatyomiqjxbbnezgwcdpp</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbuoezgncdpy</c>
+            </r>
+            <r>
+              <c>omvflkvtysmiqjxwunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatynmicjxbunezgwpdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatyqmaqjxbunezvwcdpr</c>
+            </r>
+            <r>
+              <c>ohbfhkatysmiqjxbunezgwcdqr</c>
+            </r>
+            <r>
+              <c>ohvflkatesmiqjvbunezpwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmsqjxiunezgwcdhr</c>
+            </r>
+            <r>
+              <c>ohvfjkatysmwqjxbunezgwcddr</c>
+            </r>
+            <r>
+              <c>ohvflkanysmiqjxbunwkgwcdpr</c>
+            </r>
+            <r>
+              <c>ohqflkatysmiqjxbuuezgwcddr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmvqjxbznlzgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbunjzwwqdpr</c>
+            </r>
+            <r>
+              <c>ohvfjkatysmiqxxbunezgwcupr</c>
+            </r>
+            <r>
+              <c>chvfxkatysmiqjxxunezgwcdpr</c>
+            </r>
+            <r>
+              <c>uhvflkatitmiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflbatysmiqjxbuntzgwcdor</c>
+            </r>
+            <r>
+              <c>ohvflkmtysmmqjxbunexgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflsatysmyqjxjunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvfskatysmiqjjbunezgwcdpg</c>
+            </r>
+            <r>
+              <c>ohvflkatysniqjxbunexgwcrpr</c>
+            </r>
+            <r>
+              <c>ohvfekatysmiqjxbunedswcdpr</c>
+            </r>
+            <r>
+              <c>ohvfltatysmjqjxbunezghcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatydmiqjxvunezggcdpr</c>
+            </r>
+            <r>
+              <c>oavflkatysmiqjxtunazgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkltysmiqjxbuzeugwcdpr</c>
+            </r>
+            <r>
+              <c>ohbflkatysmiqjybuuezgwcdpr</c>
+            </r>
+            <r>
+              <c>ehvfzkatysmiqjxbuhezgwcdpr</c>
+            </r>
+            <r>
+              <c>odvflkatssmiqjxbunezgwcdpj</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjzbufezgwbdpr</c>
+            </r>
+            <r>
+              <c>jhvflkdtysmiqqxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjwbunengwcnpr</c>
+            </r>
+            <r>
+              <c>ohvfskatysmiqjxbxuezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjobvnezgwcrpr</c>
+            </r>
+            <r>
+              <c>ohvrlkatysmiqjxbwnezgrcdpr</c>
+            </r>
+            <r>
+              <c>ofvflkatysmiqjxbunezpwcdwr</c>
+            </r>
+            <r>
+              <c>ohvfxdatyomiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>yhvflkatydmiqjxbubezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysdiqjxbuneztwcspr</c>
+            </r>
+            <r>
+              <c>ohvflkatydmiquxbunezgwcbpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqcxbukezgwcdwr</c>
+            </r>
+            <r>
+              <c>ohvflkntasmiqjxbunezghcdpr</c>
+            </r>
+            <r>
+              <c>lhvflkatysmiqjxbunezqwckpr</c>
+            </r>
+            <r>
+              <c>ehifikatysmiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjcbutezgwcdpm</c>
+            </r>
+            <r>
+              <c>ohvflkatjssiqrxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>oyvflkavysmiqjxlunezgwcdpr</c>
+            </r>
+            <r>
+              <c>orvflkgtysmiqjxbukezgwcdpr</c>
+            </r>
+            <r>
+              <c>ihvflkatysmiqaxbunpzgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatusmiqjxbbnezgwchpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysbiqjxvuneugwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjcbungzgwcwpr</c>
+            </r>
+            <r>
+              <c>ovvflkatysmidjxbunezgscdpr</c>
+            </r>
+            <r>
+              <c>ohvflqatysmiljxbunfzgwcdpr</c>
+            </r>
+            <r>
+              <c>ghvfokatysmiqjxbunqzgwcdpr</c>
+            </r>
+            <r>
+              <c>nxvflkatysmxqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbexezgwrdpr</c>
+            </r>
+            <r>
+              <c>ohvfrkatysmhqjxbuntzgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkvtysmiqjxocnezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvglkgtysmiqjxnunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmnqjxbunecgwqdpr</c>
+            </r>
+            <r>
+              <c>oyvflkatysgiqjxbcnezgwcdpr</c>
+            </r>
+            <r>
+              <c>ofvflkatysmiqjxbunfzgwcdpg</c>
+            </r>
+            <r>
+              <c>otvflkttysmiqjxbunezgwmdpr</c>
+            </r>
+            <r>
+              <c>ohvflkvtysmiqjbbunezgzcdpr</c>
+            </r>
+            <r>
+              <c>ahvflkatysyiqjxbunezvwcdpr</c>
+            </r>
+            <r>
+              <c>ohiflkatysmydjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvfwkatysmvqjxbunezwwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysbiqjxbunergwodpr</c>
+            </r>
+            <r>
+              <c>hhvsdkatysmiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ihvflkwtysmiqjxbunezgacdpr</c>
+            </r>
+            <r>
+              <c>ohvfljatysmiqcxbunuzgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysqiqlwbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkauysmkqjxwunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmoqjqbunezgwodpr</c>
+            </r>
+            <r>
+              <c>ohvslkvtysmipjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>olvflkatysmiujxbunezgwctpr</c>
+            </r>
+            <r>
+              <c>osvflxatysmiqjxbenezgwcdpr</c>
+            </r>
+            <r>
+              <c>orvflkhtysmiqjxbinezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohcflkatystiqjxbunezbwcdpr</c>
+            </r>
+            <r>
+              <c>ohcflkatyfmifjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatdsmiqjxbrnezgwcdpt</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbwnqzawcdpr</c>
+            </r>
+            <r>
+              <c>oevflkakysmiqjxbunezgwcdpt</c>
+            </r>
+            <r>
+              <c>ofvflkatysmiqjxbunbqgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmdqjxbunefqwcdpr</c>
+            </r>
+            <r>
+              <c>ohvklkalysmiqjxbunezgwcepr</c>
+            </r>
+            <r>
+              <c>ocvflhatysmiqjxbunezzwcdpr</c>
+            </r>
+            <r>
+              <c>uhvflkatysmiqmxbunezgwcxpr</c>
+            </r>
+            <r>
+              <c>ohvflkatyshikjhbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>lbvflkatysmoqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatssmuqjxbunezgscdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmifyxbuvezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvfikatysmiqjxbunezgwfupr</c>
+            </r>
+            <r>
+              <c>ohvmlkaiysmiqjxqunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxiunpzgwcdpo</c>
+            </r>
+            <r>
+              <c>lhvflkatysmpqjxbenezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjobunengwczpr</c>
+            </r>
+            <r>
+              <c>ohoflkatysniqjxbunezgccdpr</c>
+            </r>
+            <r>
+              <c>ohvfxkatysmiqjgbunyzgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkytysmiljxbubezgwcdpr</c>
+            </r>
+            <r>
+              <c>hhvsdkatysmiqjxjunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjtuunezgwcdpt</c>
+            </r>
+            <r>
+              <c>ohvfdkxtysmiqjubunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohxflkatysmiyjxbunezgwcdhr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjibunezgwcppd</c>
+            </r>
+            <r>
+              <c>ohvflkatysmihjxbunezgwcdhj</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxronezgwcdvr</c>
+            </r>
+            <r>
+              <c>ofrflxatysmiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvwlkatysmiqjxounezgscdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatcodiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>oqvflkatysmiqjxbunebgwmdpr</c>
+            </r>
+            <r>
+              <c>ohvflmatysmisjxbunezqwcdpr</c>
+            </r>
+            <r>
+              <c>ovvflkatysmiqjxbuxezgwcdpe</c>
+            </r>
+            <r>
+              <c>ohvflkatysmdejxbuneztwcdpr</c>
+            </r>
+            <r>
+              <c>hhvflkathsmiqjxbwnezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohkflkatlsmsqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkktysmizjxhunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohzflkatysmiqjrbunezgwcdpj</c>
+            </r>
+            <r>
+              <c>ohuflwatysmiqjxbunezgwcdgr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqvxmunpzgwcdpr</c>
+            </r>
+            <r>
+              <c>xhvflkwtysmiqjxbunezgwjdpr</c>
+            </r>
+            <r>
+              <c>whvflkatysmiqjxbunezgzcopr</c>
+            </r>
+            <r>
+              <c>ohvflkayysmiqjxuznezgwcdpr</c>
+            </r>
+            <r>
+              <c>khvflkasysmiqjxbunezgwcdpv</c>
+            </r>
+            <r>
+              <c>ohvflkatylmiqjxbpnozgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkgtysziqjxbunezgwgdpr</c>
+            </r>
+            <r>
+              <c>ohvfljaiysmiqjxbuvezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkxtyslizjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohzflkatysmiqjxbcnezgwcdar</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbisecgwcdpr</c>
+            </r>
+            <r>
+              <c>shvflkatyjmiqjkbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>mhvflkatysmiqjxvunezgwcdpk</c>
+            </r>
+            <r>
+              <c>ohfflkatysmiqjxbunczgwcppr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjkzunezgwcdpc</c>
+            </r>
+            <r>
+              <c>ohvflkatysmifjxbuneygwctpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmimjbbunezgwcdpe</c>
+            </r>
+            <r>
+              <c>ohvflkatjsciqjxbunezgwcdpa</c>
+            </r>
+            <r>
+              <c>ohvxlkatysmitjxbunezswcdpr</c>
+            </r>
+            <r>
+              <c>ohvslkatfsmiqjxbunezgwudpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqexbugezgwcdnr</c>
+            </r>
+            <r>
+              <c>onvflkatysmiqjxkunezgtcdpr</c>
+            </r>
+            <r>
+              <c>fhsflkalysmiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>oyvflkatysmiqjobxnezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbunezswgdvr</c>
+            </r>
+            <r>
+              <c>phvflkatyymiqjxvunezgwcdpr</c>
+            </r>
+            <r>
+              <c>oivflzutysmiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkftysmiqjxbunezkwcopr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmwnjxbunezgwcdpp</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqkxcunezgwndpr</c>
+            </r>
+            <r>
+              <c>phvklkatysmiqjhbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflrawysmiqjxbunhzgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbunecgwcdig</c>
+            </r>
+            <r>
+              <c>ohvflpakysmiqjxbunezgwrdpr</c>
+            </r>
+            <r>
+              <c>odvflkatykmiqjxbunezglcdpr</c>
+            </r>
+            <r>
+              <c>ohtflkatysiiqjxblnezgwcdpr</c>
+            </r>
+            <r>
+              <c>lhvfpkatysmiqjxbupezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatdsmiqjpbunezgwcdps</c>
+            </r>
+            <r>
+              <c>ohvflkztysmiqjxvunezgwjdpr</c>
+            </r>
+            <r>
+              <c>ohvflbatysmxqoxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvklkaigsmiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvfgkawysmiqjxbunezgwcdur</c>
+            </r>
+            <r>
+              <c>ohvflkatyskpqjlbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatyqmiqjhbupezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohqflkatysmiqjxzonezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohxfnkatyymiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohmflkatpsmiqjxbunezgwcdpw</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjibnnewgwcdpr</c>
+            </r>
+            <r>
+              <c>vevflkatysmiqjxbunezgwcypr</c>
+            </r>
+            <r>
+              <c>ohvflkatydmiqwxbungzgwcdpr</c>
+            </r>
+            <r>
+              <c>ohsrlkatysmiqjxbcnezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkptyvmiqexbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>opzflkatysmiqjxrunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkitysmiqjxcunezgwcmpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmhhjxblnezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysfiqjxbunrzgwmdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatyamibjxbunezgwcdpf</c>
+            </r>
+            <r>
+              <c>ohvflkalysmigjxbunezggcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatwsmisjxbunezgdcdpr</c>
+            </r>
+            <r>
+              <c>dhvflkatysmlqjxbunszgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbueeygwcbpr</c>
+            </r>
+            <r>
+              <c>ohvflkatgsmiqjnbunezhwcdpr</c>
+            </r>
+            <r>
+              <c>svvflkatysmiqjxbunezgwckpr</c>
+            </r>
+            <r>
+              <c>opvflkatysmiqpxbufezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohnvlkatysmiqjxbunezglcdpr</c>
+            </r>
+            <r>
+              <c>phvflkutysjiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflabtysmiqjjbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ouvflkatysmiqjsbunezgwcdpk</c>
+            </r>
+            <r>
+              <c>osvflkatysmijjxbunezgwcypr</c>
+            </r>
+            <r>
+              <c>owvflkatysmiqjxbukxzgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvfliatvsmiljxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbumezbwtdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatyfcicjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqldbunezgfcdpr</c>
+            </r>
+            <r>
+              <c>oqvflkatysmiqixkunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbulezgicdpe</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbuniegwcdpl</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjwbunbzgwcdhr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjdbunezgwwdkr</c>
+            </r>
+            <r>
+              <c>ohqflkytysmiqjxbunezgwcdpc</c>
+            </r>
+            <r>
+              <c>ohvflkatysmigjxbunezqwwdpr</c>
+            </r>
+            <r>
+              <c>ohvfloatysmiqjpbumezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvklkathkmiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkstjsmiqjxbunezgwctpr</c>
+            </r>
+            <r>
+              <c>ohvvlkatysmiqjxbunewgwcdir</c>
+            </r>
+            <r>
+              <c>ohnflkatysmiqjxbunszgwcdlr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmnqjxbunezgxcdlr</c>
+            </r>
+            <r>
+              <c>ohvfrkatysmiqjxbonezgwcdor</c>
+            </r>
+            <r>
+              <c>ihvflkatysmiqjxbuneogwcxpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjxbunecgwcccr</c>
+            </r>
+            <r>
+              <c>owvflkatysmivjxbunezgwjdpr</c>
+            </r>
+            <r>
+              <c>ohvflkgtysmiqjxbunczhwcdpr</c>
+            </r>
+            <r>
+              <c>ohyqlkatysmiqjxbunezgwcypr</c>
+            </r>
+            <r>
+              <c>ohvflkatysmiqjvbunezuwcdpw</c>
+            </r>
+            <r>
+              <c>ohvflkathsmiqmxbuoezgwcdpr</c>
+            </r>
+            <r>
+              <c>ehvjlkajysmiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkltysmiqjxblnezgwjdpr</c>
+            </r>
+            <r>
+              <c>oovflkvtfsmiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>olvfzkatysmiqjxyunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflkatysqitjxbunezgncdpr</c>
+            </r>
+            <r>
+              <c>yhvflkatysmkqjxbunazgwcdpr</c>
+            </r>
+            <r>
+              <c>zlvolkatysmiqjxbunezgwcdpr</c>
+            </r>
+            <r>
+              <c>ohvflpatysmiqjxbunezgwcapb</c>
+            </r>
+            <r>
+              <c>ohvflkatysmuqjxbunezgfcdur</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="510" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Source_Field_1" selected="True" rename="Source_Field_1" input="Source_" />
+                <SelectField field="Source_length" selected="True" rename="Source_length" input="Source_" />
+                <SelectField field="Source_RegExOut1" selected="True" rename="Source_RegExOut1" input="Source_" />
+                <SelectField field="Source_RegExOut2" selected="True" rename="Source_RegExOut2" input="Source_" />
+                <SelectField field="Source_RegExOut3" selected="True" rename="Source_RegExOut3" input="Source_" />
+                <SelectField field="Source_RegExOut4" selected="True" rename="Source_RegExOut4" input="Source_" />
+                <SelectField field="Source_RegExOut5" selected="True" rename="Source_RegExOut5" input="Source_" />
+                <SelectField field="Source_RegExOut6" selected="True" rename="Source_RegExOut6" input="Source_" />
+                <SelectField field="Source_RegExOut7" selected="True" rename="Source_RegExOut7" input="Source_" />
+                <SelectField field="Source_RegExOut8" selected="True" rename="Source_RegExOut8" input="Source_" />
+                <SelectField field="Source_RegExOut9" selected="True" rename="Source_RegExOut9" input="Source_" />
+                <SelectField field="Source_RegExOut10" selected="True" rename="Source_RegExOut10" input="Source_" />
+                <SelectField field="Source_RegExOut11" selected="True" rename="Source_RegExOut11" input="Source_" />
+                <SelectField field="Source_RegExOut12" selected="True" rename="Source_RegExOut12" input="Source_" />
+                <SelectField field="Source_RegExOut13" selected="True" rename="Source_RegExOut13" input="Source_" />
+                <SelectField field="Source_RegExOut14" selected="True" rename="Source_RegExOut14" input="Source_" />
+                <SelectField field="Source_RegExOut15" selected="True" rename="Source_RegExOut15" input="Source_" />
+                <SelectField field="Source_RegExOut16" selected="True" rename="Source_RegExOut16" input="Source_" />
+                <SelectField field="Source_RegExOut17" selected="True" rename="Source_RegExOut17" input="Source_" />
+                <SelectField field="Source_RegExOut18" selected="True" rename="Source_RegExOut18" input="Source_" />
+                <SelectField field="Source_RegExOut19" selected="True" rename="Source_RegExOut19" input="Source_" />
+                <SelectField field="Source_RegExOut20" selected="True" rename="Source_RegExOut20" input="Source_" />
+                <SelectField field="Source_RegExOut21" selected="True" rename="Source_RegExOut21" input="Source_" />
+                <SelectField field="Source_RegExOut22" selected="True" rename="Source_RegExOut22" input="Source_" />
+                <SelectField field="Source_RegExOut23" selected="True" rename="Source_RegExOut23" input="Source_" />
+                <SelectField field="Source_RegExOut24" selected="True" rename="Source_RegExOut24" input="Source_" />
+                <SelectField field="Source_RegExOut25" selected="True" rename="Source_RegExOut25" input="Source_" />
+                <SelectField field="Source_RegExOut26" selected="True" rename="Source_RegExOut26" input="Source_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="594" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Field_1" />
+            <Field field="Source_Field_1" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Field_1" selected="False" />
+            <Field field="length" selected="False" />
+            <Field field="RegExOut1" selected="True" />
+            <Field field="RegExOut2" selected="True" />
+            <Field field="RegExOut3" selected="True" />
+            <Field field="RegExOut4" selected="True" />
+            <Field field="RegExOut5" selected="True" />
+            <Field field="RegExOut6" selected="True" />
+            <Field field="RegExOut7" selected="True" />
+            <Field field="RegExOut8" selected="True" />
+            <Field field="RegExOut9" selected="True" />
+            <Field field="RegExOut10" selected="True" />
+            <Field field="RegExOut11" selected="True" />
+            <Field field="RegExOut12" selected="True" />
+            <Field field="RegExOut13" selected="True" />
+            <Field field="RegExOut14" selected="True" />
+            <Field field="RegExOut15" selected="True" />
+            <Field field="RegExOut16" selected="True" />
+            <Field field="RegExOut17" selected="True" />
+            <Field field="RegExOut18" selected="True" />
+            <Field field="RegExOut19" selected="True" />
+            <Field field="RegExOut20" selected="True" />
+            <Field field="RegExOut21" selected="True" />
+            <Field field="RegExOut22" selected="True" />
+            <Field field="RegExOut23" selected="True" />
+            <Field field="RegExOut24" selected="True" />
+            <Field field="RegExOut25" selected="True" />
+            <Field field="RegExOut26" selected="True" />
+            <Field field="Source_Field_1" selected="False" />
+            <Field field="Source_length" selected="False" />
+            <Field field="Source_RegExOut1" selected="True" />
+            <Field field="Source_RegExOut2" selected="True" />
+            <Field field="Source_RegExOut3" selected="True" />
+            <Field field="Source_RegExOut4" selected="True" />
+            <Field field="Source_RegExOut5" selected="True" />
+            <Field field="Source_RegExOut6" selected="True" />
+            <Field field="Source_RegExOut7" selected="True" />
+            <Field field="Source_RegExOut8" selected="True" />
+            <Field field="Source_RegExOut9" selected="True" />
+            <Field field="Source_RegExOut10" selected="True" />
+            <Field field="Source_RegExOut11" selected="True" />
+            <Field field="Source_RegExOut12" selected="True" />
+            <Field field="Source_RegExOut13" selected="True" />
+            <Field field="Source_RegExOut14" selected="True" />
+            <Field field="Source_RegExOut15" selected="True" />
+            <Field field="Source_RegExOut16" selected="True" />
+            <Field field="Source_RegExOut17" selected="True" />
+            <Field field="Source_RegExOut18" selected="True" />
+            <Field field="Source_RegExOut19" selected="True" />
+            <Field field="Source_RegExOut20" selected="True" />
+            <Field field="Source_RegExOut21" selected="True" />
+            <Field field="Source_RegExOut22" selected="True" />
+            <Field field="Source_RegExOut23" selected="True" />
+            <Field field="Source_RegExOut24" selected="True" />
+            <Field field="Source_RegExOut25" selected="True" />
+            <Field field="Source_RegExOut26" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="702" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Source_Field_1] != [Field_1]</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Source_Field_1</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-12-07 14:25:52</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-12-07 14:25:52</StartDate>
+              <EndDate>2018-12-07 14:25:52</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Source_Field_1] != [Field_1]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="810" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Contains([Name], &quot;Source&quot;) THEN &quot;Comparison&quot; ELSE &quot;Source&quot; ENDIF" field="Comparision" size="1073741823" type="V_WString" />
+            <FormulaField expression="Replace([Name], &quot;RegExOut&quot;, &quot;&quot;)" field="Name" size="17" type="String" />
+            <FormulaField expression="Replace([Name], &quot;Source_&quot;, &quot;&quot;)" field="Name" size="17" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Comparision = IF Contains([Name], "Source") THEN "Comparison" ELSE "Source" ENDI...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="918" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Field_1" />
+            <Field field="Source_Field_1" />
+            <Field field="Name" />
+          </GroupFields>
+          <HeaderField field="Comparision" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="26" source="CrossTab:Group:Concat:" type="String" />
+            <Field name="Source_Field_1" size="26" source="CrossTab:Group:Concat:" type="String" />
+            <Field name="Name" size="17" source="CrossTab:Group:Concat:" type="String" />
+            <Field name="Comparison" size="2048" source="CrossTab:Header:Comparision:Comparison:Concat:" type="V_WString" />
+            <Field name="Source" size="2048" source="CrossTab:Header:Comparision:Source:Concat:" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Field_1" order="Asc" />
+            <Field field="Source_Field_1" order="Asc" />
+            <Field field="Name" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1014" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Comparison]=[Source] THEN 1 ELSE 0 ENDIF" field="Check" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Check = IF [Comparison]=[Source] THEN 1 ELSE 0 ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1134" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Field_1" action="GroupBy" rename="Field_1" />
+            <SummarizeField field="Source_Field_1" action="GroupBy" rename="Source_Field_1" />
+            <SummarizeField field="Check" action="Sum" rename="Sum_Check" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1230" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Sum_Check" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sum_Check - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1326" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="1410" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Sum_Check" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Field_1" selected="True" />
+            <Field field="Source_Field_1" selected="True" />
+            <Field field="Sum_Check" selected="False" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1506" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Value</Field>
+          <RegExExpression value="(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)(.)" />
+          <CaseInsensitve value="False" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName />
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="RegExOut1" type="V_WString" size="254" />
+            <Field field="RegExOut2" type="V_WString" size="254" />
+            <Field field="RegExOut3" type="V_WString" size="254" />
+            <Field field="RegExOut4" type="V_WString" size="254" />
+            <Field field="RegExOut5" type="V_WString" size="254" />
+            <Field field="RegExOut6" type="V_WString" size="254" />
+            <Field field="RegExOut7" type="V_WString" size="254" />
+            <Field field="RegExOut8" type="V_WString" size="254" />
+            <Field field="RegExOut9" type="V_WString" size="254" />
+            <Field field="RegExOut10" type="V_WString" size="254" />
+            <Field field="RegExOut11" type="V_WString" size="254" />
+            <Field field="RegExOut12" type="V_WString" size="254" />
+            <Field field="RegExOut13" type="V_WString" size="254" />
+            <Field field="RegExOut14" type="V_WString" size="254" />
+            <Field field="RegExOut15" type="V_WString" size="254" />
+            <Field field="RegExOut16" type="V_WString" size="254" />
+            <Field field="RegExOut17" type="V_WString" size="254" />
+            <Field field="RegExOut18" type="V_WString" size="254" />
+            <Field field="RegExOut19" type="V_WString" size="254" />
+            <Field field="RegExOut20" type="V_WString" size="254" />
+            <Field field="RegExOut21" type="V_WString" size="254" />
+            <Field field="RegExOut22" type="V_WString" size="254" />
+            <Field field="RegExOut23" type="V_WString" size="254" />
+            <Field field="RegExOut24" type="V_WString" size="254" />
+            <Field field="RegExOut25" type="V_WString" size="254" />
+            <Field field="RegExOut26" type="V_WString" size="254" />
+          </ParseComplex>
+          <Match>
+            <Field>Field_1_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Parse:
+(.)(.)(.)(.)(.)(.)(.)(.)(.)...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="1626" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Value" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Sum_Check" selected="False" />
+            <Field field="Name" selected="False" />
+            <Field field="Value" selected="False" />
+            <Field field="RegExOut1" selected="True" />
+            <Field field="RegExOut2" selected="True" />
+            <Field field="RegExOut3" selected="True" />
+            <Field field="RegExOut4" selected="True" />
+            <Field field="RegExOut5" selected="True" />
+            <Field field="RegExOut6" selected="True" />
+            <Field field="RegExOut7" selected="True" />
+            <Field field="RegExOut8" selected="True" />
+            <Field field="RegExOut9" selected="True" />
+            <Field field="RegExOut10" selected="True" />
+            <Field field="RegExOut11" selected="True" />
+            <Field field="RegExOut12" selected="True" />
+            <Field field="RegExOut13" selected="True" />
+            <Field field="RegExOut14" selected="True" />
+            <Field field="RegExOut15" selected="True" />
+            <Field field="RegExOut16" selected="True" />
+            <Field field="RegExOut17" selected="True" />
+            <Field field="RegExOut18" selected="True" />
+            <Field field="RegExOut19" selected="True" />
+            <Field field="RegExOut20" selected="True" />
+            <Field field="RegExOut21" selected="True" />
+            <Field field="RegExOut22" selected="True" />
+            <Field field="RegExOut23" selected="True" />
+            <Field field="RegExOut24" selected="True" />
+            <Field field="RegExOut25" selected="True" />
+            <Field field="RegExOut26" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1914" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[hhvsdkatysmiqjxbunezgwcdpr] = [hhvsdkatysmiqjxjunezgwcdpr]</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>hhvsdkatysmiqjxbunezgwcdpr</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-12-07 14:53:49</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2018-12-07 14:53:49</StartDate>
+              <EndDate>2018-12-07 14:53:49</EndDate>
+              <Operand>
+              </Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[hhvsdkatysmiqjxbunezgwcdpr] = [hhvsdkatysmiqjxjunezgwcdpr]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="1818" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Name" />
+          </GroupFields>
+          <HeaderField field="Value" />
+          <DataField field="Value2" />
+          <Methods>
+            <Method method="First" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="10" source="CrossTab:Group:First:" type="String" />
+            <Field description="RegEx: Parsed from Value" name="hhvsdkatysmiqjxbunezgwcdpr" size="254" source="RegEx: Parsed from Value" type="V_WString" />
+            <Field description="RegEx: Parsed from Value" name="hhvsdkatysmiqjxjunezgwcdpr" size="254" source="RegEx: Parsed from Value" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Name" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1722" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="2010" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Name" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Name - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="2106" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="hhvsdkatysmiqjxbunezgwcdpr" action="Concat" rename="Concat_hhvsdkatysmiqjxbunezgwcdpr">
+              <Concat_Start />
+              <Separator />
+              <Concat_End />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2202" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\898450\AppData\Local\Temp\Engine_24056_c5b2cd2c14dd450ca2e29930b23ee10b_\Engine_13780_4c1ee739e933457aa30dc7f2f925cba1_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="23" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="23" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="True" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="True" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>AdventOfCode_Day2-2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
