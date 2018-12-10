@@ -1,0 +1,1785 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.4">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="414" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[PreviousTurn]+1" field="Turn" size="8" type="Double" />
+            <FormulaField expression="IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" field="Player" size="8" type="Double" />
+            <FormulaField expression="[PreviousPlacedMarble] + 1" field="Marble" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Turn = [PreviousTurn]+1
+Player = IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPl...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="9999999" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="510" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[MOD(Marble,23) != 0 ]]></Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-12-09 11:58:40</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-12-09 11:58:40</StartDate>
+              <EndDate>2018-12-09 11:58:40</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[MOD(Marble,23) != 0 ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="9999999" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="9999999" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="594" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>PreviousPlacedMarbles</Field>
+          <Delimeters value="," />
+          <NumFields value="1" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="9999999" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="690" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="9999999" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="810" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ([PreviousActivePosition]+2&gt;[PreviousCountMarbles]+1) THEN ([PreviousActivePosition]+2-[PreviousCountMarbles])&#xA;ELSE [PreviousActivePosition]+2&#xA;ENDIF" field="RecordToSplit" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RecordToSplit = IF ([PreviousActivePosition]+2&gt;[PreviousCountMarbles]+1) THEN ([...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="9999999" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]+2&gt;[PreviousCountMarbles]+1) THEN ([PreviousActivePosition]+2-[PreviousCountMarbles])&#xA;ELSE [PreviousActivePosition]+2&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1002" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[RecordID] &lt; [RecordToSplit]</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-12-09 16:15:06</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-12-09 16:15:06</StartDate>
+              <EndDate>2018-12-09 16:15:06</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[RecordID] &lt; [RecordToSplit]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="1073741823" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]+2&gt;[PreviousCountMarbles]+1) THEN ([PreviousActivePosition]+2-[PreviousCountMarbles])&#xA;ELSE [PreviousActivePosition]+2&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="1073741823" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]+2&gt;[PreviousCountMarbles]+1) THEN ([PreviousActivePosition]+2-[PreviousCountMarbles])&#xA;ELSE [PreviousActivePosition]+2&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="906" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PreviousTurn" selected="False" />
+            <SelectField field="PreviousPlayer" selected="False" />
+            <SelectField field="PreviousPlacedMarble" selected="False" />
+            <SelectField field="RoundScore" selected="False" />
+            <SelectField field="PreviousPlacedMarbles" selected="True" size="999999999" />
+            <SelectField field="PreviousActivePosition" selected="False" />
+            <SelectField field="PreviousCountMarbles" selected="False" />
+            <SelectField field="Turn" selected="False" />
+            <SelectField field="Player" selected="False" />
+            <SelectField field="Marble" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="1073741823" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]+2&gt;[PreviousCountMarbles]+1) THEN ([PreviousActivePosition]+2-[PreviousCountMarbles])&#xA;ELSE [PreviousActivePosition]+2&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="918" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PreviousPlacedMarbles" selected="False" size="999999999" />
+            <SelectField field="Marble" selected="True" rename="PreviousPlacedMarbles" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousPlacedMarbles" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1002" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousPlacedMarbles" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1122" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+            <Connection>#3</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="PreviousPlacedMarbles" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]+2&gt;[PreviousCountMarbles]+1) THEN ([PreviousActivePosition]+2-[PreviousCountMarbles])&#xA;ELSE [PreviousActivePosition]+2&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1206" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="PreviousPlacedMarbles" action="Concat" rename="NewPlacedMarbles">
+              <Concat_Start />
+              <Separator>,</Separator>
+              <Concat_End />
+            </SummarizeField>
+            <SummarizeField field="PreviousPlacedMarbles" action="Count" rename="Count" />
+            <SummarizeField field="RecordToSplit" action="First" rename="First_RecordToSplit" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NewPlacedMarbles" size="1073741823" source="Summarize: Concat - PreviousPlacedMarbles" type="V_WString" />
+            <Field name="Count" source="Summarize: Count - PreviousPlacedMarbles" type="Int64" />
+            <Field name="First_RecordToSplit" source="Formula: IF ([PreviousActivePosition]+2&gt;[PreviousCountMarbles]+1) THEN ([PreviousActivePosition]+2-[PreviousCountMarbles])&#xA;ELSE [PreviousActivePosition]+2&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1290" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="9999999" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+            <Field name="NewPlacedMarbles" size="1073741823" source="Summarize: Concat - PreviousPlacedMarbles" type="V_WString" />
+            <Field name="Count" source="Summarize: Count - PreviousPlacedMarbles" type="Int64" />
+            <Field name="First_RecordToSplit" source="Formula: IF ([PreviousActivePosition]+2&gt;[PreviousCountMarbles]+1) THEN ([PreviousActivePosition]+2-[PreviousCountMarbles])&#xA;ELSE [PreviousActivePosition]+2&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1386" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Turn]" field="PreviousTurn" size="8" type="Double" />
+            <FormulaField expression="[Player]" field="PreviousPlayer" size="8" type="Double" />
+            <FormulaField expression="[Marble]" field="PreviousPlacedMarble" size="8" type="Double" />
+            <FormulaField expression="[NewPlacedMarbles]" field="PreviousPlacedMarbles" size="9999999" type="V_WString" />
+            <FormulaField expression="[First_RecordToSplit]" field="PreviousActivePosition" size="8" type="Double" />
+            <FormulaField expression="[Count]" field="PreviousCountMarbles" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PreviousTurn = [Turn]
+PreviousPlayer = [Player]
+PreviousPlacedMarble = [Marble]
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="9999999" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+            <Field name="NewPlacedMarbles" size="1073741823" source="Summarize: Concat - PreviousPlacedMarbles" type="V_WString" />
+            <Field name="Count" source="Summarize: Count - PreviousPlacedMarbles" type="Int64" />
+            <Field name="First_RecordToSplit" source="Formula: IF ([PreviousActivePosition]+2&gt;[PreviousCountMarbles]+1) THEN ([PreviousActivePosition]+2-[PreviousCountMarbles])&#xA;ELSE [PreviousActivePosition]+2&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1470" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PreviousPlacedMarbles" selected="True" size="999999999" />
+            <SelectField field="Turn" selected="False" />
+            <SelectField field="Player" selected="False" />
+            <SelectField field="Marble" selected="False" />
+            <SelectField field="NewPlacedMarbles" selected="False" size="999999999" />
+            <SelectField field="Count" selected="False" />
+            <SelectField field="First_RecordToSplit" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="1073741823" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1830" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="1073741823" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="630" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>PreviousPlacedMarbles</Field>
+          <Delimeters value="," />
+          <NumFields value="1" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="9999999" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="798" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="9999999" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="894" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]-7)&#xA;ELSE [PreviousCountMarbles]+([PreviousActivePosition]-7)&#xA;ENDIF" field="RecordToSplit" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RecordToSplit = IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="9999999" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]-7)&#xA;ELSE [PreviousCountMarbles]+([PreviousActivePosition]-7)&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1158" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[RecordID] &lt; [RecordToSplit]</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-12-09 16:15:06</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-12-09 16:15:06</StartDate>
+              <EndDate>2018-12-09 16:15:06</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[RecordID] &lt; [RecordToSplit]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="1073741823" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]-7)&#xA;ELSE [PreviousCountMarbles]+([PreviousActivePosition]-7)&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="1073741823" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]-7)&#xA;ELSE [PreviousCountMarbles]+([PreviousActivePosition]-7)&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1062" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PreviousTurn" selected="False" />
+            <SelectField field="PreviousPlayer" selected="False" />
+            <SelectField field="PreviousPlacedMarble" selected="False" />
+            <SelectField field="RoundScore" selected="False" />
+            <SelectField field="PreviousPlacedMarbles" selected="True" size="999999999" />
+            <SelectField field="PreviousActivePosition" selected="False" />
+            <SelectField field="PreviousCountMarbles" selected="False" />
+            <SelectField field="Turn" selected="False" />
+            <SelectField field="Player" selected="False" />
+            <SelectField field="Marble" selected="False" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="1073741823" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]-7)&#xA;ELSE [PreviousCountMarbles]+([PreviousActivePosition]-7)&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1350" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="1073741823" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]-7)&#xA;ELSE [PreviousCountMarbles]+([PreviousActivePosition]-7)&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1446" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="PreviousPlacedMarbles" action="Concat" rename="NewPlacedMarbles">
+              <Concat_Start />
+              <Separator>,</Separator>
+              <Concat_End />
+            </SummarizeField>
+            <SummarizeField field="PreviousPlacedMarbles" action="Count" rename="Count" />
+            <SummarizeField field="RecordToSplit" action="First" rename="First_RecordToSplit" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NewPlacedMarbles" size="1073741823" source="Summarize: Concat - PreviousPlacedMarbles" type="V_WString" />
+            <Field name="Count" source="Summarize: Count - PreviousPlacedMarbles" type="Int64" />
+            <Field name="First_RecordToSplit" source="Formula: IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]-7)&#xA;ELSE [PreviousCountMarbles]+([PreviousActivePosition]-7)&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1086" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="ScoreFromMarble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1254" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="1073741823" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]-7)&#xA;ELSE [PreviousCountMarbles]+([PreviousActivePosition]-7)&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1254" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Skip</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Skip 1st 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="PreviousPlacedMarbles" size="1073741823" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="V_WString" />
+            <Field name="RecordToSplit" source="Formula: IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]-7)&#xA;ELSE [PreviousCountMarbles]+([PreviousActivePosition]-7)&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1542" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="9999999" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+            <Field name="NewPlacedMarbles" size="1073741823" source="Summarize: Concat - PreviousPlacedMarbles" type="V_WString" />
+            <Field name="Count" source="Summarize: Count - PreviousPlacedMarbles" type="Int64" />
+            <Field name="First_RecordToSplit" source="Formula: IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]-7)&#xA;ELSE [PreviousCountMarbles]+([PreviousActivePosition]-7)&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1638" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Turn]" field="PreviousTurn" size="8" type="Double" />
+            <FormulaField expression="[Player]" field="PreviousPlayer" size="8" type="Double" />
+            <FormulaField expression="[Marble]" field="PreviousPlacedMarble" size="8" type="Double" />
+            <FormulaField expression="[NewPlacedMarbles]" field="PreviousPlacedMarbles" size="9999999" type="V_WString" />
+            <FormulaField expression="[First_RecordToSplit]" field="PreviousActivePosition" size="8" type="Double" />
+            <FormulaField expression="[Count]" field="PreviousCountMarbles" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PreviousTurn = [Turn]
+PreviousPlayer = [Player]
+PreviousPlacedMarble = [Marble]
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="9999999" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Turn" source="Formula: [PreviousTurn]+1" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="Marble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+            <Field name="NewPlacedMarbles" size="1073741823" source="Summarize: Concat - PreviousPlacedMarbles" type="V_WString" />
+            <Field name="Count" source="Summarize: Count - PreviousPlacedMarbles" type="Int64" />
+            <Field name="First_RecordToSplit" source="Formula: IF ([PreviousActivePosition]-7&gt;0) THEN ([PreviousActivePosition]-7)&#xA;ELSE [PreviousCountMarbles]+([PreviousActivePosition]-7)&#xA;ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1734" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PreviousPlacedMarbles" selected="True" size="999999" />
+            <SelectField field="Turn" selected="False" />
+            <SelectField field="Player" selected="False" />
+            <SelectField field="Marble" selected="False" />
+            <SelectField field="NewPlacedMarbles" selected="False" />
+            <SelectField field="Count" selected="False" />
+            <SelectField field="First_RecordToSplit" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="999999" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1350" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="False" />
+            <SelectField field="PreviousPlacedMarbles" selected="True" rename="ScorePickUp" type="Double" size="8" />
+            <SelectField field="RecordToSplit" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="ScorePickUp" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1446" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="ScoreFromMarble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="ScorePickUp" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1542" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[ScoreFromMarble]+[ScorePickUp]" field="Score" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Score = [ScoreFromMarble]+[ScorePickUp]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="ScoreFromMarble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="ScorePickUp" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="Double" />
+            <Field name="Score" source="Formula: [ScoreFromMarble]+[ScorePickUp]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="2190" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>ScoreOutput</Name>
+          <Abbrev>S</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1914" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>IterationOutput</Name>
+          <Abbrev>O</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="PreviousTurn" />
+            <Field name="PreviousPlayer" />
+            <Field name="PreviousPlacedMarble" />
+            <Field name="RoundScore" />
+            <Field name="PreviousPlacedMarbles" />
+            <Field name="PreviousActivePosition" />
+            <Field name="PreviousCountMarbles" />
+          </Fields>
+          <Data>
+            <r>
+              <c>23</c>
+              <c>22</c>
+              <c>22</c>
+              <c>0</c>
+              <c>1,2,3,4,5,6</c>
+              <c>5</c>
+              <c>6</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="TextInput:" type="Byte" />
+            <Field name="PreviousPlayer" source="TextInput:" type="Byte" />
+            <Field name="PreviousPlacedMarble" source="TextInput:" type="Byte" />
+            <Field name="RoundScore" source="TextInput:" type="Byte" />
+            <Field name="PreviousPlacedMarbles" size="11" source="TextInput:" type="String" />
+            <Field name="PreviousActivePosition" source="TextInput:" type="Byte" />
+            <Field name="PreviousCountMarbles" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1926" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Allow</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Source_PreviousPlacedMarbles" selected="True" rename="Source_PreviousPlacedMarbles" input="Source_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="1073741823" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="ScoreFromMarble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="ScorePickUp" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="Double" />
+            <Field name="Score" source="Formula: [ScoreFromMarble]+[ScorePickUp]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Input54</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\898450\Documents\Projects\BRS digital\AdventOfCode2018\InputExample.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Input (53)</Name>
+          <DefaultAnnotationText>InputExample.yxdb</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="1073741823" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="990" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PreviousPlacedMarbles" selected="False" size="999999999" />
+            <SelectField field="Player" selected="True" />
+            <SelectField field="Marble" selected="True" rename="ScoreFromMarble" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="ScoreFromMarble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PreviousPlacedMarbles" selected="True" size="9999999" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="9999999" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2022" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PreviousTurn" source="Formula: [Turn]" type="Double" />
+            <Field name="PreviousPlayer" source="Formula: [Player]" type="Double" />
+            <Field name="PreviousPlacedMarble" source="Formula: [Marble]" type="Double" />
+            <Field name="RoundScore" source="TextInput:" type="Double" />
+            <Field name="PreviousPlacedMarbles" size="1073741823" source="Formula: [NewPlacedMarbles]" type="V_WString" />
+            <Field name="PreviousActivePosition" source="Formula: [First_RecordToSplit]" type="Double" />
+            <Field name="PreviousCountMarbles" source="Formula: [Count]" type="Double" />
+            <Field name="Player" source="Formula: IF [PreviousPlayer]=432 THEN 1 ELSE [PreviousPlayer]+1 ENDIF" type="Double" />
+            <Field name="ScoreFromMarble" source="Formula: [PreviousPlacedMarble] + 1" type="Double" />
+            <Field description="TextToColumns: Parsed from PreviousPlacedMarbles" name="ScorePickUp" source="TextToColumns: Parsed from PreviousPlacedMarbles" type="Double" />
+            <Field name="Score" source="Formula: [ScoreFromMarble]+[ScorePickUp]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\898450\AppData\Local\Temp\Engine_22232_ad6446d8c63b4122a349649d77a7fda9_\Engine_16444_d17dd5b415f74244a2ea0f06903fbdbc_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="990" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\898450\AppData\Local\Temp\Engine_22232_ad6446d8c63b4122a349649d77a7fda9_\Engine_16444_93c2ed0fa5d940a483aa1b0d85adb36d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2118" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\898450\AppData\Local\Temp\Engine_22232_ad6446d8c63b4122a349649d77a7fda9_\Engine_16444_6d01ab06f894439385d0ee92f5ff2689_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="23" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="False" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="False" />
+      <Destination ToolID="41" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="41" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="17" Connection="False" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="51" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="51" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="False" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="False" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="45" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (47)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (48)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (54)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Day9Macro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (4)</Name>
+          <ToolId value="4" />
+          <Questions>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (47)</Description>
+              <Name>Macro Output (47)</Name>
+              <ToolId value="47" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (48)</Description>
+              <Name>Macro Output (48)</Name>
+              <ToolId value="48" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (54)</Description>
+              <Name>Macro Input (54)</Name>
+              <ToolId value="54" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <IterativeMacro>
+        <Input>Input54</Input>
+        <Output>IterationOutput</Output>
+        <IterationLimit value="7101900" />
+        <LimitBehavior>Warn</LimitBehavior>
+        <OutputMode>AutoByName</OutputMode>
+      </IterativeMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="47" Selected="True" />
+        <Tool ToolId="48" Selected="True" />
+        <Tool ToolId="54" Selected="True" />
+        <Tool ToolId="57" Selected="False" />
+        <Tool ToolId="58" Selected="False" />
+        <Tool ToolId="59" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
